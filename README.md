@@ -60,9 +60,15 @@ Las habilidades activas se ejecutan UNA vez por turno y es lo último que realiz
 * **heal**: puntos de vida que puede hacer recuperar a un personaje contiguo (y a si mismo) mediante el uso de un kit médico en su inventario. 
 * **stealth**: distancia a la que es visto, cuanto más baja más sigiloso es puesto que hay que acercarse para verlo. 
 * **seeing**: alcance de su visión
-* **movement**: casillas que puede moverse por turno
+* **movement**: casillas que puede moverse por turno. 
 * **traps**: daño que hace cada una de las trampas que puede colocar, se colocan adjacentes y cualquiera (friend of foe) recibe daño al acercarse. Son invisibles a menos que te hayan visto ponerla. 
 * **coger equipo**: Un personaje puede coger equipo que esté en el campo de batalla si se situa sobre el elemento y realiza esta acción. 
+
+NOTA: tienes 2 acciones por turno. Movimiento es uno de las acciones posibles: 
+- Mover+mover
+- mover+acción
+- Acción+acción (ataque+ataque)
+
 ## Map
 El mapa será un rejilla de NxN casillas con dos tipos de obstáculos agrupados o salteados: 
 1. obstáculo que no se puede atravesar pero permite ver y disparar a distancia: 
